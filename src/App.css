@@ -1,0 +1,79 @@
+body {
+  background: url("https://www.businessmanager.in/wp-content/uploads/2022/04/Effective-Team-Work.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.App {
+  border: 2px solid black;
+  border-radius: 15px;
+  box-shadow: rgba(0, 0, 0, 0.07) 0px 1px 2px, rgba(0, 0, 0, 0.07) 0px 2px 4px,
+    rgba(0, 0, 0, 0.07) 0px 4px 8px, rgba(0, 0, 0, 0.07) 0px 8px 16px,
+    rgba(0, 0, 0, 0.07) 0px 16px 32px, rgba(0, 0, 0, 0.07) 0px 32px 64px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: rgba(255, 255, 255, 0.9);
+  padding: 20px;
+  width: 600px;
+  margin-left: 31%;
+  margin-top: 100px;
+  margin-bottom: 10%;
+
+  font-family: "Josefin Sans", sans-serif;
+  font-weight: bold;
+}
+
+.TeamContainer {
+  display: flex;
+  flex-direction: column;
+}
+.TeamContent {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  border: 2px solid black;
+  border-radius: 10px;
+  padding: 5px;
+}
+input {
+  margin: 5px;
+}
+.buttonContainer {
+  text-align: center;
+  padding: 15px;
+}
+button {
+  padding: 15px;
+  margin: 5px;
+  font-family: "Josefin Sans", sans-serif;
+  font-weight: bold;
+}
+form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.FormContent {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+button:hover {
+  background-color: rgb(112, 6, 211);
+}
+input {
+  width: 350px;
+  padding: 5px;
+}
+label {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-left: 20%;
+}
+h1 {
+  text-align: center;
+}
